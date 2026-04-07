@@ -1,0 +1,49 @@
+{
+    "id": "g-to-c-transition",
+    "title": "G to C Transition",
+    "module": "beginner/chord-changes",
+    "difficulty": 1,
+    "prerequisites": ["learn-g-chord", "learn-c-chord"],
+    "steps": [
+        {
+            "type": "chord_hold",
+            "chord": "G",
+            "holdDuration": 3.0,
+            "instruction": "Start with a G Major chord. Get it sounding clean."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 3.0,
+            "instruction": "Now switch to C Major. Take your time with the transition."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "G",
+            "holdDuration": 3.0,
+            "instruction": "Back to G. Try to make the switch a bit faster this time."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 3.0,
+            "instruction": "And back to C. The more you practice this switch, the smoother it gets."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "G",
+            "holdDuration": 2.0,
+            "instruction": "G — quicker now!"
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 2.0,
+            "instruction": "C — keep the momentum going!"
+        }
+    ],
+    "successCriteria": {
+        "minAccuracy": 0.6,
+        "minStepsCompleted": 4
+    }
+}

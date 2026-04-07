@@ -17,7 +17,24 @@ struct ModuleListView: View {
             title: "First Chords",
             subtitle: "Learn G, C, D, Em, Am",
             icon: "hand.raised.fingers.spread",
-            lessonIds: ["learn-g-chord"]
+            lessonIds: [
+                "learn-em-chord",
+                "learn-g-chord",
+                "learn-am-chord",
+                "learn-c-chord",
+                "learn-d-chord"
+            ]
+        ),
+        Module(
+            id: "beginner/chord-changes",
+            title: "Chord Changes",
+            subtitle: "Practice switching between chords",
+            icon: "arrow.left.arrow.right",
+            lessonIds: [
+                "em-to-am-transition",
+                "g-to-c-transition",
+                "g-d-c-progression"
+            ]
         )
     ]
 

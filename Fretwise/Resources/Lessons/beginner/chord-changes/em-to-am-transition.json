@@ -1,0 +1,49 @@
+{
+    "id": "em-to-am-transition",
+    "title": "Em to Am Transition",
+    "module": "beginner/chord-changes",
+    "difficulty": 1,
+    "prerequisites": ["learn-em-chord", "learn-am-chord"],
+    "steps": [
+        {
+            "type": "chord_hold",
+            "chord": "Em",
+            "holdDuration": 3.0,
+            "instruction": "Start with Em — two fingers, all 6 strings."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Am",
+            "holdDuration": 3.0,
+            "instruction": "Switch to Am. Your fingers move down one string set."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Em",
+            "holdDuration": 3.0,
+            "instruction": "Back to Em. This is one of the most natural chord changes in guitar."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Am",
+            "holdDuration": 3.0,
+            "instruction": "Am again. Getting smoother?"
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Em",
+            "holdDuration": 2.0,
+            "instruction": "Em — faster this time!"
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Am",
+            "holdDuration": 2.0,
+            "instruction": "Am — you're getting the hang of it!"
+        }
+    ],
+    "successCriteria": {
+        "minAccuracy": 0.6,
+        "minStepsCompleted": 4
+    }
+}

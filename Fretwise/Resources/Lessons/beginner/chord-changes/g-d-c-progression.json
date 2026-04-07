@@ -1,0 +1,55 @@
+{
+    "id": "g-d-c-progression",
+    "title": "G - D - C Progression",
+    "module": "beginner/chord-changes",
+    "difficulty": 2,
+    "prerequisites": ["g-to-c-transition"],
+    "steps": [
+        {
+            "type": "chord_hold",
+            "chord": "G",
+            "holdDuration": 3.0,
+            "instruction": "Start with G Major. This 3-chord progression is used in hundreds of songs."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "D",
+            "holdDuration": 3.0,
+            "instruction": "Switch to D Major. Remember — only strum the top 4 strings."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 3.0,
+            "instruction": "Now to C Major. G → D → C is the backbone of rock and pop music."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "G",
+            "holdDuration": 3.0,
+            "instruction": "Back to G to complete the loop."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "D",
+            "holdDuration": 2.5,
+            "instruction": "D again — a bit faster. Feel the progression."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 2.5,
+            "instruction": "C — you're playing a real chord progression now!"
+        },
+        {
+            "type": "chord_hold",
+            "chord": "G",
+            "holdDuration": 2.5,
+            "instruction": "Finish on G. Congratulations — you just played your first progression!"
+        }
+    ],
+    "successCriteria": {
+        "minAccuracy": 0.6,
+        "minStepsCompleted": 5
+    }
+}

@@ -22,7 +22,7 @@ final class ChordDetectionService: ObservableObject {
         audioCapture: AudioCaptureService = AudioCaptureService(),
         sampleRate: Float = 44100.0,
         bufferSize: Int = 4096,
-        confidenceThreshold: Float = 0.85
+        confidenceThreshold: Float = 0.75
     ) {
         self.audioCapture = audioCapture
         self.chromaExtractor = ChromaExtractor(sampleRate: sampleRate, bufferSize: bufferSize)

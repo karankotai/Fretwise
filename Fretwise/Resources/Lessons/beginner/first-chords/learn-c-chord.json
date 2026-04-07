@@ -1,0 +1,40 @@
+{
+    "id": "learn-c-chord",
+    "title": "Learn the C Chord",
+    "module": "beginner/first-chords",
+    "difficulty": 2,
+    "prerequisites": ["learn-g-chord"],
+    "steps": [
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 3.0,
+            "instruction": "Place your fingers for C Major — index on B string fret 1, middle on D string fret 2, ring on A string fret 3. Strum strings 5 through 1."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 5.0,
+            "instruction": "Hold the C chord longer. Focus on pressing firmly near the frets."
+        },
+        {
+            "type": "free_play",
+            "chord": null,
+            "holdDuration": null,
+            "instruction": "Strum freely. Try switching between C and open strings.",
+            "sequence": null,
+            "bpm": null,
+            "beatsPerChord": null
+        },
+        {
+            "type": "chord_hold",
+            "chord": "C",
+            "holdDuration": 4.0,
+            "instruction": "One more clean C Major. Make sure every string rings clearly."
+        }
+    ],
+    "successCriteria": {
+        "minAccuracy": 0.7,
+        "minStepsCompleted": 3
+    }
+}

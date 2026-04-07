@@ -12,6 +12,7 @@
 		0D66EFE146C639FAD4F865F2 /* ChordLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24A342889F32E6550478636 /* ChordLibrary.swift */; };
 		0D8B7E399A4BC498F011BBE6 /* TabScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F69ADA19DC0B70A9B51E4E /* TabScrollView.swift */; };
 		12182FAA64102E6D2F110789 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B797E635D1AD9DC4C4B98B /* AppTabView.swift */; };
+		1330E43172489BD1F8C08E28 /* em-to-am-transition.json in Resources */ = {isa = PBXBuildFile; fileRef = D5F00437BF8372DDDA071AE2 /* em-to-am-transition.json */; };
 		14B5166390106AFD92F1B98D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B99652F377A1D68889B4B /* WelcomeView.swift */; };
 		1DD73F2B56D5893D4372C4DE /* MicPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F81503095C21805831318 /* MicPermissionView.swift */; };
 		2E17D5E8CA3CF20DC2CE71E6 /* ChordClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64FF1CAA44D635A5171E658 /* ChordClassifierTests.swift */; };
@@ -19,16 +20,23 @@
 		37A98D439231DD37C5B2A31C /* ChordMastery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D1A073EB0C97EB3735F8F /* ChordMastery.swift */; };
 		3C101622DAB4260744DED52A /* ChordDetectionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B24A82FABD0E7D848C4B9 /* ChordDetectionEvent.swift */; };
 		4D1730E050636619AF86ED26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5502EC9113B552F204E9CC4 /* ContentView.swift */; };
+		569C196C712CF5DD8BCBA986 /* learn-am-chord.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D1EAAE6145F0B3A96B59193 /* learn-am-chord.json */; };
 		56CA672A43B39004E591152E /* FretwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543D51B1088ED35D611EA203 /* FretwiseTests.swift */; };
 		5E9CB662D2E76999FA268FC0 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B415F37E94CB838113541F /* OnboardingContainerView.swift */; };
+		62AF2AF366450AC8CE076021 /* learn-em-chord.json in Resources */ = {isa = PBXBuildFile; fileRef = D95A876E26474CB3818BBDF4 /* learn-em-chord.json */; };
 		64ABB9A6634577C98EE1743C /* FeedbackOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE343B080480500F3411D2 /* FeedbackOverlay.swift */; };
 		64BBEA361A5C57DF173BA7C8 /* SkillLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0A9CC5EDB89B1315BAD20 /* SkillLevelView.swift */; };
+		660634868F292A2B8CE8CF20 /* g-d-c-progression.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E5212288EB829061386E347 /* g-d-c-progression.json */; };
 		66D30E1601C01DA6E1189795 /* LessonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E32E893EE18CC619B08082 /* LessonModels.swift */; };
+		73182C8C04D77B3BC14F2164 /* g-to-c-transition.json in Resources */ = {isa = PBXBuildFile; fileRef = 146BE3A84D8BE563696AF2FC /* g-to-c-transition.json */; };
 		7A32AEEA6CD00B4834F54039 /* LessonEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E438F373E26B53C70D925C /* LessonEngine.swift */; };
 		8142206CCDD482A196E08527 /* ModuleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DDEDA637E8B2E52C207075 /* ModuleListView.swift */; };
 		85959B680C6CB0E629B450F0 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EE65515186E80A67FE413F /* ResultsView.swift */; };
 		9B35FE165C3A0F38549C2729 /* ChromaExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A781F1B888FF4BA1D22368B /* ChromaExtractor.swift */; };
+		9E444446C6320A37477E9015 /* learn-d-chord.json in Resources */ = {isa = PBXBuildFile; fileRef = AD67A9241BB192CCA3C41BC5 /* learn-d-chord.json */; };
+		A361913FB9C8B54B3182C949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E34339F2574802CC194C15 /* Assets.xcassets */; };
 		A79B83FF9822EC5F4D6EB84F /* ChordDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108A7ECA8E3D5A4D59E9091 /* ChordDetectionService.swift */; };
+		B0F5A2623BCE0FB6D503E9EF /* learn-g-chord.json in Resources */ = {isa = PBXBuildFile; fileRef = 52115D2EBCD7649E9356250E /* learn-g-chord.json */; };
 		B39454F3231FDA14BEF87096 /* ChromaExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DAF81C56F34E26B69DBB56 /* ChromaExtractorTests.swift */; };
 		BABFDFEABADA7F5D9B79AD50 /* ChordLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71927E689B954C5C821BAAC /* ChordLibraryTests.swift */; };
 		BF1A90064EACFE0D319FD8DC /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1737CEA1DEA63B743458C /* PracticeView.swift */; };
@@ -38,6 +46,7 @@
 		D518089C4621C742E1318611 /* FretboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0294E7567C28F559B65F4 /* FretboardView.swift */; };
 		D9BC6CAECC3A6224BD9E75AF /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963F0923958664045514888 /* UserProgress.swift */; };
 		E59095F324E92F0DC2D5AF61 /* ChordTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BCCFCAFEDB72553BDED417 /* ChordTemplate.swift */; };
+		EE8F927EFEF016484F1B9D6E /* learn-c-chord.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD8D892E66C3A5A837CF7B6 /* learn-c-chord.json */; };
 		F26A808040F883EB80839056 /* TargetChordHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA48552D6B20F01F75942A /* TargetChordHeader.swift */; };
 		FB2A5822ACF6B833BC021F60 /* FretwiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135E2B1EC752A208C38812 /* FretwiseApp.swift */; };
 /* End PBXBuildFile section */
@@ -56,14 +65,19 @@
 		0C0B24A82FABD0E7D848C4B9 /* ChordDetectionEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDetectionEvent.swift; sourceTree = "<group>"; };
 		0FAE343B080480500F3411D2 /* FeedbackOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackOverlay.swift; sourceTree = "<group>"; };
 		10C0A9CC5EDB89B1315BAD20 /* SkillLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLevelView.swift; sourceTree = "<group>"; };
+		146BE3A84D8BE563696AF2FC /* g-to-c-transition.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "g-to-c-transition.json"; sourceTree = "<group>"; };
 		150086869C2D0F1DDBED1A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		189F81503095C21805831318 /* MicPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicPermissionView.swift; sourceTree = "<group>"; };
 		19A1737CEA1DEA63B743458C /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		21E93E8133AE2A2135A6982C /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
+		2E5212288EB829061386E347 /* g-d-c-progression.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "g-d-c-progression.json"; sourceTree = "<group>"; };
 		41E0294E7567C28F559B65F4 /* FretboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretboardView.swift; sourceTree = "<group>"; };
 		477D3D37A746DD1490355DD6 /* ChordClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordClassifier.swift; sourceTree = "<group>"; };
+		51E34339F2574802CC194C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52115D2EBCD7649E9356250E /* learn-g-chord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "learn-g-chord.json"; sourceTree = "<group>"; };
 		543D51B1088ED35D611EA203 /* FretwiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretwiseTests.swift; sourceTree = "<group>"; };
 		5CFFEA0D6E49FD76AD6C790E /* FretwiseTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FretwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1EAAE6145F0B3A96B59193 /* learn-am-chord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "learn-am-chord.json"; sourceTree = "<group>"; };
 		649779F4FD40C6E500218764 /* LessonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLoader.swift; sourceTree = "<group>"; };
 		6C135E2B1EC752A208C38812 /* FretwiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretwiseApp.swift; sourceTree = "<group>"; };
 		6CBA9E15FC76A64B5E0BE8DB /* LessonLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLoaderTests.swift; sourceTree = "<group>"; };
@@ -77,6 +91,7 @@
 		97DDEDA637E8B2E52C207075 /* ModuleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleListView.swift; sourceTree = "<group>"; };
 		A6CA48552D6B20F01F75942A /* TargetChordHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetChordHeader.swift; sourceTree = "<group>"; };
 		A71927E689B954C5C821BAAC /* ChordLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordLibraryTests.swift; sourceTree = "<group>"; };
+		AD67A9241BB192CCA3C41BC5 /* learn-d-chord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "learn-d-chord.json"; sourceTree = "<group>"; };
 		B0F69ADA19DC0B70A9B51E4E /* TabScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScrollView.swift; sourceTree = "<group>"; };
 		B24A342889F32E6550478636 /* ChordLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordLibrary.swift; sourceTree = "<group>"; };
 		B5502EC9113B552F204E9CC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,8 +99,11 @@
 		C6B142ECC53FBDAEE22489A2 /* Fretwise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Fretwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BCCFCAFEDB72553BDED417 /* ChordTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTemplate.swift; sourceTree = "<group>"; };
 		C88B99652F377A1D68889B4B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CCD8D892E66C3A5A837CF7B6 /* learn-c-chord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "learn-c-chord.json"; sourceTree = "<group>"; };
 		D0E32E893EE18CC619B08082 /* LessonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonModels.swift; sourceTree = "<group>"; };
 		D108A7ECA8E3D5A4D59E9091 /* ChordDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDetectionService.swift; sourceTree = "<group>"; };
+		D5F00437BF8372DDDA071AE2 /* em-to-am-transition.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "em-to-am-transition.json"; sourceTree = "<group>"; };
+		D95A876E26474CB3818BBDF4 /* learn-em-chord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "learn-em-chord.json"; sourceTree = "<group>"; };
 		D963F0923958664045514888 /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
 		DA2EC3A0A86A0E4B8F88A94D /* LessonEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonEngineTests.swift; sourceTree = "<group>"; };
 		F8B415F37E94CB838113541F /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
@@ -109,6 +127,7 @@
 				F187FC9AA141F27C1999497B /* Lessons */,
 				ABC01ADF0EF5D269910D4C6A /* Models */,
 				C9B9548B48D2F6200962BFCB /* Navigation */,
+				E156075B001731EAE719FAF3 /* Resources */,
 				AF88AC78D6FA95A6E6F08139 /* Views */,
 				B5502EC9113B552F204E9CC4 /* ContentView.swift */,
 				6C135E2B1EC752A208C38812 /* FretwiseApp.swift */,
@@ -143,6 +162,18 @@
 				A71927E689B954C5C821BAAC /* ChordLibraryTests.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		710C21B166573B0FB4803DC8 /* first-chords */ = {
+			isa = PBXGroup;
+			children = (
+				5D1EAAE6145F0B3A96B59193 /* learn-am-chord.json */,
+				CCD8D892E66C3A5A837CF7B6 /* learn-c-chord.json */,
+				AD67A9241BB192CCA3C41BC5 /* learn-d-chord.json */,
+				D95A876E26474CB3818BBDF4 /* learn-em-chord.json */,
+				52115D2EBCD7649E9356250E /* learn-g-chord.json */,
+			);
+			path = "first-chords";
 			sourceTree = "<group>";
 		};
 		71FA8BCA69EC600EBA7207B8 /* Audio */ = {
@@ -215,6 +246,24 @@
 			path = FretwiseTests;
 			sourceTree = "<group>";
 		};
+		D07248739CE7D6ED8069B32F /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				E5563C7A048EB0B064A437D5 /* beginner */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		D13BA564B44F44DCACD22A2B /* chord-changes */ = {
+			isa = PBXGroup;
+			children = (
+				D5F00437BF8372DDDA071AE2 /* em-to-am-transition.json */,
+				2E5212288EB829061386E347 /* g-d-c-progression.json */,
+				146BE3A84D8BE563696AF2FC /* g-to-c-transition.json */,
+			);
+			path = "chord-changes";
+			sourceTree = "<group>";
+		};
 		D7EE126A4189B9A59B239370 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +274,24 @@
 				A6CA48552D6B20F01F75942A /* TargetChordHeader.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		E156075B001731EAE719FAF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D07248739CE7D6ED8069B32F /* Lessons */,
+				51E34339F2574802CC194C15 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5563C7A048EB0B064A437D5 /* beginner */ = {
+			isa = PBXGroup;
+			children = (
+				D13BA564B44F44DCACD22A2B /* chord-changes */,
+				710C21B166573B0FB4803DC8 /* first-chords */,
+			);
+			path = beginner;
 			sourceTree = "<group>";
 		};
 		F187FC9AA141F27C1999497B /* Lessons */ = {
@@ -246,13 +313,6 @@
 			path = Audio;
 			sourceTree = "<group>";
 		};
-		"TEMP_EEB3E8A1-C61A-4879-8CCA-E2F93C24FE74" /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,6 +321,7 @@
 			buildConfigurationList = 82F6F60D381448610E2462F9 /* Build configuration list for PBXNativeTarget "Fretwise" */;
 			buildPhases = (
 				0F1C2884399BD10B6F19D923 /* Sources */,
+				EB7DDAD6BD48C96B2BC96021 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -321,6 +382,25 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7DDAD6BD48C96B2BC96021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A361913FB9C8B54B3182C949 /* Assets.xcassets in Resources */,
+				1330E43172489BD1F8C08E28 /* em-to-am-transition.json in Resources */,
+				660634868F292A2B8CE8CF20 /* g-d-c-progression.json in Resources */,
+				73182C8C04D77B3BC14F2164 /* g-to-c-transition.json in Resources */,
+				569C196C712CF5DD8BCBA986 /* learn-am-chord.json in Resources */,
+				EE8F927EFEF016484F1B9D6E /* learn-c-chord.json in Resources */,
+				9E444446C6320A37477E9015 /* learn-d-chord.json in Resources */,
+				62AF2AF366450AC8CE076021 /* learn-em-chord.json in Resources */,
+				B0F5A2623BCE0FB6D503E9EF /* learn-g-chord.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F1C2884399BD10B6F19D923 /* Sources */ = {

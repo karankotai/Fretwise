@@ -1,0 +1,40 @@
+{
+    "id": "learn-em-chord",
+    "title": "Learn the Em Chord",
+    "module": "beginner/first-chords",
+    "difficulty": 1,
+    "prerequisites": [],
+    "steps": [
+        {
+            "type": "chord_hold",
+            "chord": "Em",
+            "holdDuration": 3.0,
+            "instruction": "E minor is one of the easiest chords! Just two fingers — middle on A string fret 2, ring on D string fret 2. Strum all 6 strings."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Em",
+            "holdDuration": 5.0,
+            "instruction": "Hold Em longer. Notice how full and open it sounds with all 6 strings."
+        },
+        {
+            "type": "free_play",
+            "chord": null,
+            "holdDuration": null,
+            "instruction": "Strum freely. Em is a great chord to get comfortable with strumming.",
+            "sequence": null,
+            "bpm": null,
+            "beatsPerChord": null
+        },
+        {
+            "type": "chord_hold",
+            "chord": "Em",
+            "holdDuration": 4.0,
+            "instruction": "One more Em. Let it ring out nice and clean."
+        }
+    ],
+    "successCriteria": {
+        "minAccuracy": 0.7,
+        "minStepsCompleted": 3
+    }
+}

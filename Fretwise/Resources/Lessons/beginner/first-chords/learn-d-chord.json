@@ -1,0 +1,40 @@
+{
+    "id": "learn-d-chord",
+    "title": "Learn the D Chord",
+    "module": "beginner/first-chords",
+    "difficulty": 3,
+    "prerequisites": ["learn-c-chord"],
+    "steps": [
+        {
+            "type": "chord_hold",
+            "chord": "D",
+            "holdDuration": 3.0,
+            "instruction": "D Major uses only the top 4 strings. Index on G string fret 2, ring on B string fret 3, middle on high E fret 2. Strum strings 4 through 1."
+        },
+        {
+            "type": "chord_hold",
+            "chord": "D",
+            "holdDuration": 5.0,
+            "instruction": "Hold the D chord. Make sure you're not hitting the low E or A strings."
+        },
+        {
+            "type": "free_play",
+            "chord": null,
+            "holdDuration": null,
+            "instruction": "Practice placing and lifting your fingers. Speed will come with repetition.",
+            "sequence": null,
+            "bpm": null,
+            "beatsPerChord": null
+        },
+        {
+            "type": "chord_hold",
+            "chord": "D",
+            "holdDuration": 4.0,
+            "instruction": "Final D chord — clean and clear, all 4 strings ringing."
+        }
+    ],
+    "successCriteria": {
+        "minAccuracy": 0.7,
+        "minStepsCompleted": 3
+    }
+}
