@@ -7,5 +7,6 @@ struct FretwiseApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [UserProgress.self, ChordMastery.self])
     }
 }
