@@ -43,6 +43,12 @@ final class AudioCaptureService: ObservableObject {
         let inputNode = engine.inputNode
         let format = inputNode.outputFormat(forBus: 0)
 
+        // Guard against invalid format (e.g., iOS Simulator with no mic)
+        guard format.sampleRate > 0 && format.channelCount > 0 else {
+            print("[AudioCaptureService] No valid audio input (simulator?). Skipping mic capture.")
+            return
+        }
+
         inputNode.installTap(onBus: 0, bufferSize: bufferSize, format: format) {
             [weak self] buffer, _ in
             guard let channelData = buffer.floatChannelData?[0] else { return }

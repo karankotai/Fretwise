@@ -16,8 +16,8 @@ enum LessonLoader {
         guard let enumerator = fm.enumerator(at: resourceURL, includingPropertiesForKeys: nil) else { return nil }
 
         while let fileURL = enumerator.nextObject() as? URL {
-            if fileURL.deletingPathExtension().lastPathComponent == id
-                && fileURL.pathExtension == "json" {
+            if fileURL.pathExtension == "json"
+                && fileURL.deletingPathExtension().lastPathComponent == id {
                 return load(from: fileURL)
             }
         }
