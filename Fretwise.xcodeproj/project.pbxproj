@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1730E050636619AF86ED26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5502EC9113B552F204E9CC4 /* ContentView.swift */; };
+		56CA672A43B39004E591152E /* FretwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543D51B1088ED35D611EA203 /* FretwiseTests.swift */; };
+		FB2A5822ACF6B833BC021F60 /* FretwiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135E2B1EC752A208C38812 /* FretwiseApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4127C35A5CDFF907267AF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85F5C12F0F52B199372E7F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B81392D9B0B24BAAD23031BE;
+			remoteInfo = Fretwise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150086869C2D0F1DDBED1A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		543D51B1088ED35D611EA203 /* FretwiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretwiseTests.swift; sourceTree = "<group>"; };
+		5CFFEA0D6E49FD76AD6C790E /* FretwiseTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FretwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C135E2B1EC752A208C38812 /* FretwiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretwiseApp.swift; sourceTree = "<group>"; };
+		B5502EC9113B552F204E9CC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6B142ECC53FBDAEE22489A2 /* Fretwise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Fretwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E7ADD691D992C2E970F0586 /* Fretwise */ = {
+			isa = PBXGroup;
+			children = (
+				B5502EC9113B552F204E9CC4 /* ContentView.swift */,
+				6C135E2B1EC752A208C38812 /* FretwiseApp.swift */,
+				150086869C2D0F1DDBED1A2B /* Info.plist */,
+			);
+			path = Fretwise;
+			sourceTree = "<group>";
+		};
+		225F2C18673FB6FEA3AE865B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B142ECC53FBDAEE22489A2 /* Fretwise.app */,
+				5CFFEA0D6E49FD76AD6C790E /* FretwiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1AF99C4F3217E96086421BA = {
+			isa = PBXGroup;
+			children = (
+				0E7ADD691D992C2E970F0586 /* Fretwise */,
+				CB05722165F199BFB09E7E50 /* FretwiseTests */,
+				225F2C18673FB6FEA3AE865B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB05722165F199BFB09E7E50 /* FretwiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				543D51B1088ED35D611EA203 /* FretwiseTests.swift */,
+			);
+			path = FretwiseTests;
+			sourceTree = "<group>";
+		};
+		"TEMP_2A883920-2C26-4BBD-A64D-24C413F40AC5" /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		"TEMP_9A68AF68-9CAE-49DB-B782-20803043B7EC" /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B81392D9B0B24BAAD23031BE /* Fretwise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F6F60D381448610E2462F9 /* Build configuration list for PBXNativeTarget "Fretwise" */;
+			buildPhases = (
+				0F1C2884399BD10B6F19D923 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fretwise;
+			packageProductDependencies = (
+			);
+			productName = Fretwise;
+			productReference = C6B142ECC53FBDAEE22489A2 /* Fretwise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DED4CB2291393A4856FD36 /* FretwiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14952CD0708F98FC730000EF /* Build configuration list for PBXNativeTarget "FretwiseTests" */;
+			buildPhases = (
+				1B250AC3FDF1444A8290960E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E548F7F43ECD32212F7CA701 /* PBXTargetDependency */,
+			);
+			name = FretwiseTests;
+			packageProductDependencies = (
+			);
+			productName = FretwiseTests;
+			productReference = 5CFFEA0D6E49FD76AD6C790E /* FretwiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85F5C12F0F52B199372E7F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 26C85840B558F7C460312AF8 /* Build configuration list for PBXProject "Fretwise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B1AF99C4F3217E96086421BA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 225F2C18673FB6FEA3AE865B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B81392D9B0B24BAAD23031BE /* Fretwise */,
+				D6DED4CB2291393A4856FD36 /* FretwiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1C2884399BD10B6F19D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1730E050636619AF86ED26 /* ContentView.swift in Sources */,
+				FB2A5822ACF6B833BC021F60 /* FretwiseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B250AC3FDF1444A8290960E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA672A43B39004E591152E /* FretwiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E548F7F43ECD32212F7CA701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B81392D9B0B24BAAD23031BE /* Fretwise */;
+			targetProxy = E4127C35A5CDFF907267AF0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B179FFA9094476503E7C5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Fretwise/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Fretwise listens to your guitar to detect chords and give real-time feedback as you practice.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karankotai.Fretwise;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		463E79A07EC4595B88B1E267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karankotai.FretwiseTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fretwise.app/Fretwise";
+			};
+			name = Debug;
+		};
+		9035213F4908C9E495600382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Fretwise/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Fretwise listens to your guitar to detect chords and give real-time feedback as you practice.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karankotai.Fretwise;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA34761C324FA918478AF6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		DC39AC34CF9B618385D80CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E74020590D6A72EE4B100F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karankotai.FretwiseTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fretwise.app/Fretwise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14952CD0708F98FC730000EF /* Build configuration list for PBXNativeTarget "FretwiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463E79A07EC4595B88B1E267 /* Debug */,
+				E74020590D6A72EE4B100F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26C85840B558F7C460312AF8 /* Build configuration list for PBXProject "Fretwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA34761C324FA918478AF6C6 /* Debug */,
+				DC39AC34CF9B618385D80CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82F6F60D381448610E2462F9 /* Build configuration list for PBXNativeTarget "Fretwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9035213F4908C9E495600382 /* Debug */,
+				1B179FFA9094476503E7C5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85F5C12F0F52B199372E7F75 /* Project object */;
+}
