@@ -1,7 +1,18 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
+
     var body: some View {
-        Text("Fretwise")
+        if hasCompletedOnboarding {
+            AppTabView()
+        } else {
+            OnboardingContainerView {
+                withAnimation {
+                    hasCompletedOnboarding = true
+                }
+            }
+        }
     }
 }
