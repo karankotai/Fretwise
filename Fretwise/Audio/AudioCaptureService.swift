@@ -12,6 +12,9 @@ final class AudioCaptureService: ObservableObject {
     @Published var isRunning = false
     @Published var permissionGranted = false
 
+    /// The actual hardware sample rate, available after start().
+    private(set) var actualSampleRate: Float = 44100.0
+
     private let engine = AVAudioEngine()
     private let bufferSize: AVAudioFrameCount = 4096
 
@@ -40,6 +43,11 @@ final class AudioCaptureService: ObservableObject {
         guard permissionGranted else { return }
         guard !isRunning else { return }
 
+        // Configure audio session for microphone recording
+        let session = AVAudioSession.sharedInstance()
+        try session.setCategory(.record, mode: .measurement)
+        try session.setActive(true)
+
         let inputNode = engine.inputNode
         let format = inputNode.outputFormat(forBus: 0)
 
@@ -48,6 +56,8 @@ final class AudioCaptureService: ObservableObject {
             print("[AudioCaptureService] No valid audio input (simulator?). Skipping mic capture.")
             return
         }
+
+        actualSampleRate = Float(format.sampleRate)
 
         inputNode.installTap(onBus: 0, bufferSize: bufferSize, format: format) {
             [weak self] buffer, _ in

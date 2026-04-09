@@ -17,11 +17,9 @@ targets:
     platform: iOS
     sources:
       - path: Fretwise
-        excludes:
-          - "Resources/Lessons/**"
-    resources:
-      - path: Fretwise/Resources/Lessons
-        buildPhase: resources
+        resources:
+          - path: Resources/Lessons
+            buildPhase: resources
     settings:
       base:
         INFOPLIST_KEY_NSMicrophoneUsageDescription: "Fretwise listens to your guitar to detect chords and give real-time feedback as you practice."

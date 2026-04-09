@@ -5,7 +5,7 @@ import Foundation
 /// Chroma bins: [C, C#, D, D#, E, F, F#, G, G#, A, A#, B]
 final class ChromaExtractor {
 
-    private let sampleRate: Float
+    private(set) var sampleRate: Float
     private let bufferSize: Int
     private let fftSetup: vDSP.FFT<DSPSplitComplex>
     private let halfN: Int
@@ -19,15 +19,25 @@ final class ChromaExtractor {
         self.fftSetup = vDSP.FFT(log2n: log2n, radix: .radix2, ofType: DSPSplitComplex.self)!
     }
 
+    func updateSampleRate(_ newRate: Float) {
+        sampleRate = newRate
+    }
+
     /// Extract a normalized 12-bin chroma vector from a Float audio buffer.
     func extract(from buffer: [Float]) -> [Float] {
-        guard buffer.count == bufferSize else { return [Float](repeating: 0, count: 12) }
+        // Use exactly bufferSize samples — truncate or zero-pad as needed
+        let input: [Float]
+        if buffer.count >= bufferSize {
+            input = Array(buffer.prefix(bufferSize))
+        } else {
+            input = buffer + [Float](repeating: 0, count: bufferSize - buffer.count)
+        }
 
         // Apply Hann window to reduce spectral leakage
         var windowed = [Float](repeating: 0, count: bufferSize)
         var window = [Float](repeating: 0, count: bufferSize)
         vDSP_hann_window(&window, vDSP_Length(bufferSize), Int32(vDSP_HANN_NORM))
-        vDSP_vmul(buffer, 1, window, 1, &windowed, 1, vDSP_Length(bufferSize))
+        vDSP_vmul(input, 1, window, 1, &windowed, 1, vDSP_Length(bufferSize))
 
         // Perform FFT
         var realPart = [Float](repeating: 0, count: halfN)

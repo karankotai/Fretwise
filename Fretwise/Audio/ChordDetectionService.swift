@@ -38,6 +38,8 @@ final class ChordDetectionService: ObservableObject {
 
     func start() throws {
         try audioCapture.start()
+        // Update chroma extractor with the actual device sample rate
+        chromaExtractor.updateSampleRate(audioCapture.actualSampleRate)
     }
 
     func stop() {
