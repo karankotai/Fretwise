@@ -14,9 +14,9 @@ struct AppTabView: View {
                     Label("Songs", systemImage: "music.note.list")
                 }
 
-            Text("Tools — Coming Soon")
+            TunerView()
                 .tabItem {
-                    Label("Tools", systemImage: "wrench.and.screwdriver")
+                    Label("Tuner", systemImage: "tuningfork")
                 }
 
             Text("Profile — Coming Soon")
