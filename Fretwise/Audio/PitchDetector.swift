@@ -1,4 +1,3 @@
-import Accelerate
 import Foundation
 
 /// Detects the fundamental frequency of a monophonic audio signal
@@ -69,7 +68,7 @@ final class PitchDetector {
         guard let tau = bestTau else { return nil }
 
         // Step 4: Parabolic interpolation for sub-sample accuracy
-        let s0 = cmnd[tau - 1]
+        let s0 = tau > minLag ? cmnd[tau - 1] : cmnd[tau]
         let s1 = cmnd[tau]
         let s2 = tau + 1 < halfN ? cmnd[tau + 1] : s1
 
