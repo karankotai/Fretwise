@@ -54,11 +54,11 @@ final class TunerEngine: ObservableObject {
 
     func stop() {
         audioCapture.stop()
-        DispatchQueue.main.async {
-            self.detectedFrequency = nil
-            self.nearestGuitarString = nil
-            self.centsOff = 0
-            self.accuracy = .off
+        DispatchQueue.main.async { [weak self] in
+            self?.detectedFrequency = nil
+            self?.nearestGuitarString = nil
+            self?.centsOff = 0
+            self?.accuracy = .off
         }
     }
 
@@ -72,6 +72,8 @@ final class TunerEngine: ObservableObject {
             DispatchQueue.main.async { [weak self] in
                 self?.detectedFrequency = nil
                 self?.nearestGuitarString = nil
+                self?.centsOff = 0
+                self?.accuracy = .off
             }
             return
         }
