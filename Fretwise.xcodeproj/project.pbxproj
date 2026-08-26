@@ -108,7 +108,7 @@
 		B24A342889F32E6550478636 /* ChordLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordLibrary.swift; sourceTree = "<group>"; };
 		B5502EC9113B552F204E9CC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B64FF1CAA44D635A5171E658 /* ChordClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordClassifierTests.swift; sourceTree = "<group>"; };
-		C6B142ECC53FBDAEE22489A2 /* Fretwise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Fretwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B142ECC53FBDAEE22489A2 /* Fretwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fretwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BCCFCAFEDB72553BDED417 /* ChordTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTemplate.swift; sourceTree = "<group>"; };
 		C88B99652F377A1D68889B4B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CCD8D892E66C3A5A837CF7B6 /* learn-c-chord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "learn-c-chord.json"; sourceTree = "<group>"; };
@@ -389,8 +389,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 26C85840B558F7C460312AF8 /* Build configuration list for PBXProject "Fretwise" */;
 			developmentRegion = en;
@@ -503,6 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6LQ7AFVNUN;
 				INFOPLIST_FILE = Fretwise/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Fretwise listens to your guitar to detect chords and give real-time feedback as you practice.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -539,6 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6LQ7AFVNUN;
 				INFOPLIST_FILE = Fretwise/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Fretwise listens to your guitar to detect chords and give real-time feedback as you practice.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
